@@ -1,0 +1,55 @@
+/* Basic styles for the chat app */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Consistent font */
+
+}
+
+.chat-box {
+    width: 60%;
+    height: 500px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column; /* Adjusted to normal column to stack from top to bottom */
+}
+
+
+.message {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.question {
+    align-self: flex-start;
+    background-color: #e8f4fd; /* Light blue for questions */
+}
+
+.answer {
+    align-self: flex-end;
+    background-color: #47a2c8; /* Different shade of blue for answers */
+}
+
+.chat-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    margin-right: 5px;
+    padding: 10px;
+    font-size: 16px;
+}

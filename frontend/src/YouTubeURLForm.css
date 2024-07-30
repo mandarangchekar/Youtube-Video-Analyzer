@@ -1,0 +1,70 @@
+/* YouTubeURLForm.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f1; /* Soft white background */
+    color: #333; /* Dark text for better contrast */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Consistent font */
+}
+
+h1 {
+    color: #0056b3; /* Dark blue for the heading */
+    font-size: 32px; /* Large font size for visibility */
+    margin-bottom: 10px; /* Space before the description */
+}
+
+p {
+    margin-bottom: 20px; /* Space before the instructions */
+    font-size: 18px; /* Slightly larger font for readability */
+    text-align: center; /* Center align the description */
+}
+
+.instructions {
+    margin-bottom: 20px; /* Space before the form */
+    list-style-position: inside; /* Ensure numbers are inside and align with text */
+    text-align: center; /* Align text to the left */
+    width: 80%; /* Control width to centralize content */
+    padding-left: 0; /* Adjust padding for alignment */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: white; /* Light background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    color: #333; /* Dark text for contrast */
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff; /* White background for input */
+    color: #333; /* Dark text color */
+}
+
+.button {
+    width: 320px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #0056b3; /* Consistent blue theme */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #003d7a; /* Darker blue on hover */
+}
