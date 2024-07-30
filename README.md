@@ -126,6 +126,4 @@ frontend/
 5. Submit a pull request.
 
 
-## Contact
 
-For any inquiries or issues, please contact [Roshan Khandelwal](https://github.com/roshankhandelwal97).
